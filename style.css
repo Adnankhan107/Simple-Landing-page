@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #D4F7F5, #A3E9F5);
+}
+
+/*Nav section*/
+.navContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;    
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navLinks a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/*hero section*/
+.heroContainer {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+/*Text box*/
+.textContainer {
+    max-width: 550px;
+}
+
+.textContainer p:first-child {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.textContainer h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+.textContainer p:nth-of-type(2) {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/*Buttons*/
+#startedBtn, #communityBtn {
+    padding: 12px 28px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/*Blue button*/
+#startedBtn {
+    background-color: #0b69ff;
+    color: white;
+    border: none;
+}
+
+/*White button*/
+#communityBtn {
+    background-color: transparent;
+}
+
+/*Image container*/
+.imgContainer img {
+    width: 380px;
+}
